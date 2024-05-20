@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - CHALLENGE</title>
+    <link rel="stylesheet" href="./reset-box.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h3>❤️❤️❤️AluraGeek</h3>
+    </header>
+    <main>
+        <section class="container-galleria">
+            <h2>MIS PRODUCTOS</h2>
+            <ul class="container-productos" alt="Productos alura" data-list>
+
+            </ul><img src="" alt="">
+            
+        </section>
+        <section class="container-form">
+            <h2>Agregar Productos</h2>
+            <form class="formulario" action="#" method="POST" id="productForm">
+                <input type="text" name="name" id="nombre" placeholder="Nombre del producto" title="Nombre"
+                    class="input" required />
+                <input type="text" name="price" id="precio" placeholder="25.0" title="Precio" 
+                    class="input" maxlength="5" max="9999" required />
+                <input type="url" name="image" id="imagen" placeholder="Enlace de la imagen" title="Enlace de la imagen"
+                    class="input" maxlength="400" required />
+                <div class="container-buttons">
+                    <button id="my-form-button-submit" class="boton-general backgound-blue" type="submit">AGREGAR</button>
+                    <button id="my-form-button-reset" class="boton-general backgound-pink" type="reset">LIMPIAR</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3>❤️❤️❤️AluraGeek</h3>
+        <p>Desarrollado por Jose Pastore</p>
+        <p>ALURA LATAM- 2024</p>
+    </footer>
+    <script src="./js/mostrarProductos.js"></script>
+    <script src="./js/agregarProductos.js"></script>
+</body>
+
+</html>

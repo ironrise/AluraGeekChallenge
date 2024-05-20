@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Funko Zoro edicion WANO",
+      "precio": 7.99,
+      "imagen": "./imagenes/zoro.jpeg"
+    },
+    {
+      "id": "2",
+      "nombre": "Trafagar D. Law",
+      "precio": 6.99,
+      "imagen": "./imagenes/law.png"
+    },
+    {
+      "id": "3",
+      "nombre": "Kozuki Oden",
+      "precio": 6.99,
+      "imagen": "./imagenes/oden.jpeg"
+    },
+    {
+      "id": "4",
+      "nombre": "Dr. Chopper",
+      "precio": 6.99,
+      "imagen": "./imagenes/chopper.jpeg"
+    }
+  ]
+}
